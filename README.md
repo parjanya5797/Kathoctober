@@ -2,7 +2,7 @@
 
 ![hack](https://user-images.githubusercontent.com/48166328/94787275-ba253600-03ef-11eb-8822-6b34943e9104.jpeg)
 
-## Make Open source contribution and be part of hactoberfest, win tShort and goodies
+## Make Open source contribution and be part of hactoberfest, win T-shirt and goodies
 
 This repo is made with an objective to encourage Nepalese dev on open source contribution and to be part of hactoberfest.
 
@@ -27,7 +27,7 @@ Let's make a contribution to this repository.
 
 ## Note
 
-Before you start you must register in hactoberfest and contribution must be code to be counted as valid PR.
+Before you start you must register in hactoberfest and your contribution must be code to be counted as valid PR.
 
 Let me show you how easy it is:
 
