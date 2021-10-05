@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a,
+.ease-3 {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+p {
+    color: #6e7373;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0 0 30px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0 0 5px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+    background-color: #fff
+}
+
+.text-custom {
+    color: #30b6e4 !important
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.btn {
+    padding: 12px 50px;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all 0.5s;
+    color: #fff;
+    box-shadow: none;
+    text-transform: uppercase;
+    outline: none !important;
+    background-color: #304FFE;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    min-width: 140px;
+}
+
+.btn:hover {
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+}
+
+.btn-outline {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.rounded-full {
+    border-radius: 50%;
+}
+
+.page-content-wrap {
+    margin-left: 50%;
+    width: 50%;
+    background: #F8FAFB;
+}
+
+.b-box {
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    /*box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);*/
+}
+
+.hover-state:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+}
+
+.section-head {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-head h2 {
+    font-size: 30px;
+    z-index: 1;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.section-head h2:after,
+.overlay-wrap h1:after {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 100%;
+    content: "";
+    bottom: -30px;
+}
+
+.section-head span {
+    padding-bottom: 10px;
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #878d8d;
+}
+
+.section-light {
+    background: #fff;
+}
+
+.section-dark {
+    background: #f7f7f7;
+}
+
+.section-light .b-box {
+    background: #F8FAFB;
+}
+
+.section-dark .b-box {
+    background: #fff;
+}
+
+.section-subHead {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.badge {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.badge-dark {
+    background: #304FFE !important;
+}

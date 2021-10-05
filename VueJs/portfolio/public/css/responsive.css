@@ -1,0 +1,145 @@
+@media (max-width: 991px) {
+
+    .section {
+        padding: 80px 0;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .page-content-wrap {
+        margin-left: 0%;
+        width: 100%;
+        margin-top: -50px;
+        position: relative;
+        z-index: 1
+    }
+
+    .page-wrapper {
+        width: 100%;
+        margin-left: 0%;
+        overflow: hidden;
+    }
+
+    .nav-wrapper .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-nav {
+        padding-top: 10px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .navbar-nav:before {
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#000000', GradientType=1);
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 1px;
+        width: 100%;
+        content: "";
+        top: 0;
+    }
+
+    .navbar-nav .nav-link {
+        display: block;
+        padding-left: 0 !important;
+    }
+
+    .list-items-container .list-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contact-details--panel {
+        margin-bottom: 30px
+    }
+
+    .contact-form {
+        margin-top: 30px !important
+    }
+
+    .contact-details {
+        padding-top: 30px;
+    }
+
+    .section-resume .section-subHead {
+        /*padding-top: 30px;*/
+        margin: 40px 0 20px !important;
+    }
+
+    .filter a {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    .about-avatar img {
+        height: 130px;
+        width: 130px;
+    }
+
+
+
+    .contact-map--container {
+        height: 300px
+    }
+
+    .section .container {
+        padding: 0 15px;
+    }
+
+    .about-desc-more {
+        padding: 15px 15px 0;
+    }
+
+    .about-social li {
+        margin-bottom: 15px;
+    }
+
+    .home-pagination .swiper-pagination-bullet {
+        width: 30px;
+    }
+
+    .section-about {
+        margin-top: -150px;
+    }
+
+    .section-about img {
+        margin-top: -150px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .about-desc-content {
+        max-width: 100%;
+    }
+
+    .about-desc {
+        text-align: center;
+    }
+
+    .overlay h1 {
+        font-size: 10vh
+    }
+
+    .section-resume .section-head {
+        margin-bottom: 30px
+    }
+
+    .blog-nav {
+        margin-bottom: 15px;
+    }
+
+    .list-items-container .list-item {
+        width: 100%;
+        padding: 0;
+    }
+}
