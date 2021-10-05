@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="js.js">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <h3>FoodieMe</h3>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fab fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Recipie</li></a>
+                </ul>
+                <button class="btn">Sign Up</button>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>Food<span> Doesn't have<br> a religion.</span>It is a religion</h1>
+            <button class="btn">Explore</button>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icon">
+                <i class="fa fa-th-list"></i>
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="notifications">
+            <div class="contents">
+                <small>View this video to know more About Us</small>
+                <p><a href="#">PREV</a>
+                    <a href="#">NEXT</a>
+                </p>
+            </div>
+            <div class="notification-img">
+                <img src="cover.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu() {
+            show.style.right = "0";
+        }
+        function closeMenu() {
+            show.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
