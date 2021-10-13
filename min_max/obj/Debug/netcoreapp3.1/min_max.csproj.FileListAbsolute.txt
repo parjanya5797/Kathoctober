@@ -1,0 +1,13 @@
+D:\dotnet\console\min_max\bin\Debug\netcoreapp3.1\min_max.exe
+D:\dotnet\console\min_max\bin\Debug\netcoreapp3.1\min_max.deps.json
+D:\dotnet\console\min_max\bin\Debug\netcoreapp3.1\min_max.runtimeconfig.json
+D:\dotnet\console\min_max\bin\Debug\netcoreapp3.1\min_max.runtimeconfig.dev.json
+D:\dotnet\console\min_max\bin\Debug\netcoreapp3.1\min_max.dll
+D:\dotnet\console\min_max\bin\Debug\netcoreapp3.1\min_max.pdb
+D:\dotnet\console\min_max\obj\Debug\netcoreapp3.1\min_max.csprojAssemblyReference.cache
+D:\dotnet\console\min_max\obj\Debug\netcoreapp3.1\min_max.AssemblyInfoInputs.cache
+D:\dotnet\console\min_max\obj\Debug\netcoreapp3.1\min_max.AssemblyInfo.cs
+D:\dotnet\console\min_max\obj\Debug\netcoreapp3.1\min_max.csproj.CoreCompileInputs.cache
+D:\dotnet\console\min_max\obj\Debug\netcoreapp3.1\min_max.dll
+D:\dotnet\console\min_max\obj\Debug\netcoreapp3.1\min_max.pdb
+D:\dotnet\console\min_max\obj\Debug\netcoreapp3.1\min_max.genruntimeconfig.cache
